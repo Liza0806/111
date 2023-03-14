@@ -36,7 +36,7 @@ header{
                 
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
                 
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -119,7 +119,11 @@ header{
     border-radius: 4px;
     cursor: pointer;
 }
-
+.hero-button:hover,
+.hero-button:focus
+ {
+    color: #404BBF;
+}
 /*----sections and titles----*/
 
 /*-----advantages-----*/
@@ -127,6 +131,7 @@ header{
 .advantages-title {
     color: var(--accent-text-color);
     visibility: hidden;
+    
 }
 
 .advantages-title-small {
@@ -134,7 +139,7 @@ header{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02e;
+    letter-spacing: 0.02em;
     
 }
 
@@ -161,7 +166,10 @@ header{
 /*---team-----*/
 
 .team {
-    background-color: var(--milk-wite);
+    background-color: var(--soft-white);
+}
+.team-persons {
+    background-color: #fff;
 }
 .team-title {
     color: var(--accent-text-color);
@@ -170,7 +178,7 @@ header{
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-
+    letter-spacing: 0.02em;
     
 
 }
@@ -181,6 +189,7 @@ header{
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .team-text {
@@ -195,8 +204,8 @@ background-color: var(--accent-text-color);
 font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17;
-color: var(--accent);
+line-height: 1.17; 
+color: #4d5ae5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -243,9 +252,11 @@ text-transform: uppercase;
     cursor: pointer;
     
  }
- .nav-button:hover {
-    color: var(--pure-wite);
-    background-color: var(--accent-text-color);
+ .nav-button:hover,
+ .nav-button:focus
+ {
+    color: #FFFFFF;
+    background-color: #404BBF;
  }
  
 

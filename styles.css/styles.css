@@ -1,141 +1,279 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css/styles.css">
-  </head>
-  <body class="page">
+/*   #FFFFFF  */
+/*#2E2F42 navy blue*/
+/* #434455 text small*/
+/* #F4F4FD footer, studio */
+/* #4D5AE5 web*/
 
-    <!--header-->
-    <header>
-      <nav>
-        <a href="./index.html" class="link-webstudio link">Web<span class="logo-studio">Studio</span> </a>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="nav-header link">Studio</a></li>
-          <li><a href="./portfolio.html" class="nav-header link">Portfolio</a></li>
-          <li><a href="" class="nav-header link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="auth-nav">
-        <ul class="list">
-          <li><a class="auth-nav-list link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="auth-nav-list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
 
-    <!--hero-->
+/*----mains----*/
 
-    <main>
-      <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
-      </section>
+:root {
+    --primary-text-color: #434455;
+    --accent-text-color: #2E2F42;
+    ;
+    --accent: #4D5AE5;
+    --soft-white:#F4F4FD;
+    --pure-wite: #fff
+}
 
-      <!--advantages-->
+body {
+    background-color: var(--soft-white);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+header{
+    background-color: var(--pure-wite);
+}
+.link {
+    text-decoration: none;
+}
+/*new code*/
+.link-webstudio {
+    color: var(--accent);
+     font-family: Raleway, sans-serif;
+        
+                
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+                
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-      <section class="advantages">
-        <h2 class="advantages-title">Our advantages</h2>
+.nav-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+}
 
-        <ul class="advantages list">
-          <li>
-            <h3 class="advantages-title-small">Strategy</h3>
-            <p class="advantages-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title-small">Punctuality</h3>
-            <p class="advantages-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title-small">Diligence</h3>
-            <p class="advantages-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-title-small">Technologies</h3>
-            <p class="advantages-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!--Works-->
-      <section class="works">
-        <h2 class="works-title">What are we doing</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/desc.jpg" alt="companys_activity1" width="360" />
-          </li>
-          <li>
-            <img
-              src="./images/phone.jpg"
-              alt="companys_activity2"
-              width="360"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/phoneinarm.jpg"
-              alt="companys_activity3"
-              width="360"
-            />
-          </li>
-        </ul>
-      </section>
+.logo-studio {
+    color: var(--accent-text-color);
+    
+}
 
-      <!--team-->
-      <section class="team">
-        <h2 class="team-title">Our Team</h2>
-        <ul class="list">
-          <li class="team-persons">
-            <img src="./images/marko.jpg" alt="mark" width="264" />
-            <h3 class="team-title-small">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
-          </li class="team-persons">
-          <li class="team-persons">
-            <img src="./images/tom.jpg" alt="tom" width="264" />
-            <h3 class="team-title-small">Tom Ford</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li class="team-persons">
-            <img src="./images/camila.jpg" alt="camila" width="264" />
-            <h3 class="team-title-small">Camila Garcia</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li class="team-persons">
-            <img src="./images/daniel.jpg" alt="daniel" width="264" />
-            <h3 class="team-title-small">Daniel Wilson</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
 
-    <!--footer-->
-    <footer class="footer">
-      <a href="./index.html" class="link">Web<span class="logo-studio-footer">Studio</span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
-  </body>
-</html>
+
+.list {
+    list-style: none;
+}
+
+/*----navigation----*/
+
+
+.nav-header:hover,
+.nav-header:focus {
+    color: #404bbf;
+}
+
+
+.auth-nav {
+    color: var(--primary-text-color);
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.auth-nav-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+}
+.auth-nav .link:hover {
+    color: #404bbf;
+  }
+.auth-nav-list:focus {
+    color: #404bbf;
+}
+/*-----hero-----*/
+
+.hero {
+    background-color: var(--accent-text-color);
+}
+.hero-title {
+    color: var(--pure-wite);  
+
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    align-items: center;
+
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus
+ {
+    color: #404BBF;
+}
+/*----sections and titles----*/
+
+/*-----advantages-----*/
+
+.advantages-title {
+    color: var(--accent-text-color);
+    visibility: hidden;
+    
+}
+
+.advantages-title-small {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+
+.advantages-text {
+    color: var(--primary-text-color);
+    
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*----works----*/
+.works {
+    background-color: #F5F5F5;
+}
+.works-title {
+    color: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*---team-----*/
+
+.team {
+    background-color: var(--soft-white);
+}
+.team-persons {
+    background-color: #fff;
+}
+.team-title {
+    color: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    
+
+}
+
+.team-title-small {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer {
+background-color: var(--accent-text-color);
+font-family: Raleway, sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17; 
+color: var(--accent);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.footer-text {
+    color: var(--soft-white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.logo-studio-footer {
+    color: var(--soft-white);
+}
+ /*-----button---*/
+ .button {
+    color: var(--pure-wite);
+    background-color: var(--accent);
+    cursor: pointer;
+ }
+
+ .button:hover {
+    color: var(--accent);
+    background-color: var(--milk-wite);
+
+ }
+ /*-----PORTFOLIO----*/
+
+ .hidden-title {
+    visibility: hidden;
+ }
+ .nav-button {
+    color: var(--accent);
+    font-family: "Roboto", sans-serif;
+
+    background-color: var(--soft-white);
+    font-weight: 500;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    
+ }
+ .nav-button:hover,
+ .nav-button:focus
+ {
+    color: #FFFFFF;
+    background-color: #404BBF;
+ }
+ 
+
+ .gallery-titile-small {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+ }
+ .gallery-text {
+    color: var(--primary-text-color);
+    
+    font-size: 16px;
+    line-height: 1.5;
+   
+    }
+
+ 

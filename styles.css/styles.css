@@ -207,11 +207,9 @@ font-size: 18px;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: #4d5ae5;
+}
 
-}
-.logo-footer {
-color: var(--accent);
-}
 .footer-text {
     color: var(--soft-white);
     font-weight: 400;

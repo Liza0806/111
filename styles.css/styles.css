@@ -98,7 +98,7 @@ header{
     background-color: var(--accent-text-color);
 }
 .hero-title {
-    color: #ffffff;  
+    color: #FFFFFF;  
 
     font-weight: 700;
     font-size: 56px;
@@ -201,16 +201,18 @@ header{
 }
 
 .footer {
-background-color: var(--accent-text-color);
-color: var(--accent);
-font-family: Raleway, sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17; 
-letter-spacing: 0.03em;
-text-transform: uppercase;
+background-color:var(--accent-text-color);
 }
 
+.footer-logo {
+    color: var(--accent);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .footer-text {
     color: var(--soft-white);
     font-weight: 400;

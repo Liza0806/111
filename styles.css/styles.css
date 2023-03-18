@@ -15,7 +15,8 @@
     --soft-white:#F4F4FD;
     --pure-wite: #fff;
     --almost-white: #F5F5F5;
-    --blue: #404bbf
+    --blue: #404bbf;
+        --footer-text: #E7E9FC;
 }
 
 body {
@@ -115,8 +116,9 @@ header{
     line-height: 1.5;
     letter-spacing: 0.04em;
     align-items: center;
-
+    
     background-color: var(--accent);
+    cursor: pointer;
     
 }
 .hero-button:hover,
@@ -211,7 +213,7 @@ background-color:var(--accent-text-color);
     text-transform: uppercase;
 }
 .footer-text {
-    color: var(--soft-white);
+    color: var(--footer-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

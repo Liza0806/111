@@ -10,13 +10,12 @@
 :root {
     --primary-text-color: #434455;
     --accent-text-color: #2E2F42;
-    ;
     --accent: #4D5AE5;
     --soft-white:#F4F4FD;
     --pure-wite: #fff;
     --almost-white: #F5F5F5;
     --blue: #404bbf;
-        --footer-text: #E7E9FC;
+    --footer-text: #E7E9FC;
 }
 
 body {
